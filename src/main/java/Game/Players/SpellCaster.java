@@ -1,4 +1,4 @@
 package Game.Players;
 
-public interface SpellCaster {
+public abstract class SpellCaster {
 }

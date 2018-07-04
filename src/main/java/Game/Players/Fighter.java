@@ -1,4 +1,4 @@
 package Game.Players;
 
-public interface Fighter {
+public abstract class Fighter {
 }
