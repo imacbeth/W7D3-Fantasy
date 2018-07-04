@@ -1,4 +1,48 @@
 package Game.Players;
 
-public abstract class Fighter {
+import Game.Behaviours.ITreasure;
+import Game.Behaviours.IWeapon;
+import Game.Abilities.Weapon;
+
+import java.util.ArrayList;
+
+public abstract class Fighter implements IWeapon{
+
+    private String name;
+    private ArrayList<ITreasure> treasureBag;
+    private  int healthPoints;
+    private int progress;
+    Weapon weapon;
+
+    public Fighter(String name, ArrayList treasureBag, int healthPoints, int progress, Weapon weapon){
+        this.name = name;
+        this.treasureBag= new ArrayList<>();
+        this.healthPoints = healthPoints;
+        this.progress = progress;
+        this.weapon = weapon;
+    }
+
+    public String getName(){
+        return this.name;
+    }
+
+    public ArrayList getTreasure(){
+        return this.treasureBag;
+    }
+
+    public int getHealthPoints(){
+        return this.healthPoints;
+    }
+
+    public int getProgress(){
+        return this.progress;
+    }
+
+    public Weapon getWeapon() {
+        return weapon;
+    }
+
+    public void setWeapon(Weapon weapon){
+        this.weapon = weapon;
+    }
 }

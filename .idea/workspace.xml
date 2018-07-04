@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf745685-7149-4d82-abc0-3cb59128aed7" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Game/Behaviours/IPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Player.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Players/Barbarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Players/Barbarian.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Players/Cleric.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Players/Cleric.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game/Abilities/Creature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game/Abilities/Spell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game/Abilities/Tool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Game/Abilities/Weapon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Behaviours/IWeapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Behaviours/IWeapon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Game/Players/Dwarf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Players/Dwarf.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Game/Players/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Players/Fighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Players/Healer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Players/Healer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Players/Knight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Players/Knight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Players/SpellCaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Players/SpellCaster.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Players/Warlock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Players/Warlock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Game/Players/Wizard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Game/Players/Wizard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DwarfTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DwarfTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PlayerTest.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -39,19 +31,51 @@
       <file leaf-file-name="DwarfTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/DwarfTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="337">
+              <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#141#142#0" expanded="true" />
-                <element signature="e#175#176#0" expanded="true" />
                 <element signature="e#317#318#0" expanded="true" />
                 <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#430#431#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#586#587#0" expanded="true" />
-                <element signature="e#635#636#0" expanded="true" />
-                <element signature="e#690#691#0" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#484#485#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
+                <element signature="e#583#584#0" expanded="true" />
+                <element signature="e#625#626#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Weapon.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Game/Abilities/Weapon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IWeapon.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Game/Behaviours/IWeapon.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Fighter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Game/Players/Fighter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#694#695#0" expanded="true" />
+                <element signature="e#744#745#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,8 +84,8 @@
       <file leaf-file-name="Dwarf.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Game/Players/Dwarf.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="83">
+              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#691#692#0" expanded="true" />
@@ -71,65 +95,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Barbarian.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Game/Players/Barbarian.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cleric.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Game/Players/Cleric.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Knight.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Game/Players/Knight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="21" selection-start-column="21" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Warlock.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Game/Players/Warlock.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="21" selection-start-column="21" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpellCaster.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Game/Players/SpellCaster.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IEnemy.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Game/Behaviours/IEnemy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ITreasure.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Game/Behaviours/ITreasure.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -458,17 +428,19 @@
         <option value="$PROJECT_DIR$/src/main/java/Game/Behaviours/ITreasure.java" />
         <option value="$PROJECT_DIR$/src/test/java/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Game/Player.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Game/Players/Fighter.java" />
         <option value="$PROJECT_DIR$/src/main/java/Game/Players/Healer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Game/Players/SpellCaster.java" />
         <option value="$PROJECT_DIR$/src/main/java/Game/Behaviours/IPlayer.java" />
-        <option value="$PROJECT_DIR$/src/test/java/DwarfTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Game/Players/Barbarian.java" />
         <option value="$PROJECT_DIR$/src/main/java/Game/Players/Cleric.java" />
         <option value="$PROJECT_DIR$/src/main/java/Game/Players/Knight.java" />
         <option value="$PROJECT_DIR$/src/main/java/Game/Players/Warlock.java" />
         <option value="$PROJECT_DIR$/src/main/java/Game/Players/Wizard.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Game/Behaviours/IWeapon.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Game/Players/Fighter.java" />
         <option value="$PROJECT_DIR$/src/main/java/Game/Players/Dwarf.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Game/Abilities/Weapon.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DwarfTest.java" />
       </list>
     </option>
   </component>
@@ -525,6 +497,15 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Game" type="462c0819:PsiDirectoryNode" />
+              <item name="Abilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FantasyGameLab" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FantasyGameLab" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Game" type="462c0819:PsiDirectoryNode" />
               <item name="Behaviours" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -561,6 +542,9 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Game" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Game.Behaviours" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -682,6 +666,18 @@
     <history-entry file="DwarfTest_hasHealthPoints - 2018.07.04 at 11h 36m 44s.xml">
       <configuration name="DwarfTest.hasHealthPoints" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="DwarfTest - 2018.07.04 at 11h 40m 28s.xml">
+      <configuration name="DwarfTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DwarfTest_hasHealthPoints - 2018.07.04 at 11h 40m 35s.xml">
+      <configuration name="DwarfTest.hasHealthPoints" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DwarfTest - 2018.07.04 at 11h 43m 05s.xml">
+      <configuration name="DwarfTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DwarfTest - 2018.07.04 at 11h 43m 49s.xml">
+      <configuration name="DwarfTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="716" extended-state="6" />
@@ -695,9 +691,9 @@
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32956383" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32956383" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32956383" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32956383" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
@@ -751,14 +747,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/DwarfTest.java</url>
-          <line>27</line>
-          <properties />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -766,13 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Game/Behaviours/IWeapon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -853,13 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Game/Players/Fighter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Game/Players/Healer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -933,10 +908,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Game/Abilities/Tool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Game/Abilities/Creature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Game/Abilities/Spell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Game/Behaviours/IWeapon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Game/Players/Fighter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="24" column="31" lean-forward="true" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
+            <element signature="e#744#745#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Game/Players/Dwarf.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="18" column="32" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="83">
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#691#692#0" expanded="true" />
@@ -945,21 +961,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Game/Abilities/Weapon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DwarfTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="337">
+          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#175#176#0" expanded="true" />
             <element signature="e#317#318#0" expanded="true" />
             <element signature="e#388#389#0" expanded="true" />
-            <element signature="e#430#431#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-            <element signature="e#586#587#0" expanded="true" />
-            <element signature="e#635#636#0" expanded="true" />
-            <element signature="e#690#691#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#583#584#0" expanded="true" />
+            <element signature="e#625#626#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
           </folding>
         </state>
       </provider>
