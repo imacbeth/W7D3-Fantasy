@@ -1,15 +1,15 @@
 package Game.Players;
 
-import Game.Behaviours.ITreasure;
 import Game.Behaviours.IWeapon;
 import Game.Abilities.Weapon;
+import Game.RoomContents.Treasure;
 
 import java.util.ArrayList;
 
 public abstract class Fighter implements IWeapon{
 
     private String name;
-    private ArrayList<ITreasure> treasureBag;
+    private ArrayList<Treasure> treasureBag;
     private  int healthPoints;
     private int progress;
     Weapon weapon;
@@ -44,5 +44,9 @@ public abstract class Fighter implements IWeapon{
 
     public void setWeapon(Weapon weapon){
         this.weapon = weapon;
+    }
+
+    public void pickUpTreasure(Treasure item){
+        this.treasureBag.add(item);
     }
 }

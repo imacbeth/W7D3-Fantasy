@@ -1,6 +1,6 @@
 package Game.Behaviours;
 
-import Game.Behaviours.ITreasure;
+import Game.RoomContents.Treasure;
 
 import java.util.ArrayList;
 
@@ -10,6 +10,8 @@ public interface IPlayer {
      ArrayList getTreasure();
      int getHealthPoints();
      int getProgress();
+     void pickUpTreasure(Treasure item);
+
 
     }
 

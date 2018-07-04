@@ -1,17 +1,14 @@
 package Game.Players;
 
 import Game.Abilities.HealingTool;
-import Game.Abilities.HealingTool;
-import Game.Abilities.Weapon;
 import Game.Behaviours.IHealingTool;
-import Game.Behaviours.ITreasure;
-import Game.Abilities.HealingTool;
+import Game.RoomContents.Treasure;
 
 import java.util.ArrayList;
 
 public abstract class Healer implements IHealingTool{
         private String name;
-        private ArrayList<ITreasure> treasureBag;
+        private ArrayList<Treasure> treasureBag;
         private  int healthPoints;
         private int progress;
         HealingTool healingTool;
@@ -47,4 +44,7 @@ public abstract class Healer implements IHealingTool{
         this.healingTool = healingTool;
     }
 
+    public void pickUpTreasure(Treasure item){
+        this.treasureBag.add(item);
+    }
 }

@@ -2,14 +2,14 @@ package Game.Players;
 
 import Game.Abilities.Spell;
 import Game.Behaviours.ISpell;
-import Game.Behaviours.ITreasure;
+import Game.RoomContents.Treasure;
 
 import java.util.ArrayList;
 
 public abstract class SpellCaster implements ISpell {
 
     private String name;
-    private ArrayList<ITreasure> treasureBag;
+    private ArrayList<Treasure> treasureBag;
     private int healthPoints;
     private int progress;
     Spell spell;
@@ -45,5 +45,9 @@ public abstract class SpellCaster implements ISpell {
 
     public void setSpell(Spell spell) {
         this.spell = spell;
+    }
+
+    public void pickUpTreasure(Treasure item){
+        this.treasureBag.add(item);
     }
 }

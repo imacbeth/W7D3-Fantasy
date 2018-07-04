@@ -1,16 +1,15 @@
 package Game.Players;
 
 import Game.Abilities.HealingTool;
-import Game.Abilities.Weapon;
 import Game.Behaviours.IPlayer;
-import Game.Behaviours.ITreasure;
+import Game.RoomContents.Treasure;
 
 import java.util.ArrayList;
 
 public class Cleric extends Healer implements IPlayer {
 
     private String name;
-    private ArrayList<ITreasure> treasureBag;
+    private ArrayList<Treasure> treasureBag;
     private  int healthPoints;
     private int progress;
 
