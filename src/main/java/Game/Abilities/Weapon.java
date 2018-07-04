@@ -10,4 +10,8 @@ public class Weapon {
         this.damagePerBlow = damagePerBlow;
     }
 
+    public int getDamagePerBlow(){
+        return this.damagePerBlow;
+    }
+
 }

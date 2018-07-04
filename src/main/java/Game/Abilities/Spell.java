@@ -9,4 +9,8 @@ public class Spell {
         this.type = type;
         this.damagePerHit = damagePerHit;
     }
+
+    public int getDamagePerHit(){
+        return this.damagePerHit;
+    }
 }
